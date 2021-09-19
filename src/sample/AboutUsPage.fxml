@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SecondaryMainPageController">
+   <children>
+      <Label layoutX="214.0" layoutY="38.0" prefHeight="40.0" prefWidth="188.0" text="About OpticOrigin" textFill="#0db4dd">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="firstTileTextArea" cacheShape="false" centerShape="false" editable="false" layoutX="27.0" layoutY="153.0" prefHeight="91.0" prefWidth="393.0" scaleShape="false" wrapText="true">
+         <font>
+            <Font name="Audiowide" size="10.0" />
+         </font></TextArea>
+      <TextArea fx:id="thirdTileTextArea" editable="false" layoutX="186.0" layoutY="245.0" prefHeight="326.0" prefWidth="235.0" />
+      <ImageView fitHeight="146.0" fitWidth="169.0" layoutX="28.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@INFOGRAPHICSIMAGE.png" />
+         </image></ImageView>
+      <ImageView fitHeight="142.0" fitWidth="169.0" layoutX="28.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@iNFORGRAPHICSGLASSIMAGE.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="124.0" fitWidth="159.0" layoutX="420.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OwLrEADINGIMAGE.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="369.0" fitWidth="169.0" layoutX="420.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OPTICORIGININFOGRAPHICS.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="270.0" layoutY="620.0" text="Optic Origin: 2021" />
+   </children>
+</Pane>

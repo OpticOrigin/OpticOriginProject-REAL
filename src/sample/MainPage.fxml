@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainPageController">
+   <children>
+      <Button layoutX="21.0" layoutY="94.0" mnemonicParsing="false" onAction="#AboutUsMethod" text="Abour Us" />
+      <Button layoutX="108.0" layoutY="94.0" mnemonicParsing="false" onAction="#getPrescriptionGlassesMethod" text="Get Prescription Glasses" />
+      <Button layoutX="269.0" layoutY="94.0" mnemonicParsing="false" onAction="#inquiriesButtonMethod" text="Inquiries" />
+      <Button layoutX="369.0" layoutY="94.0" mnemonicParsing="false" onAction="#carriersButtonMethod" text="Carriers" />
+      <Button layoutX="462.0" layoutY="94.0" mnemonicParsing="false" onAction="#donateButtonMethod" text="Donate" />
+      <Label layoutX="187.0" layoutY="14.0" text="Optic Origin">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="187.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OwLrEADINGIMAGE.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
